@@ -1,0 +1,23 @@
+/* Add these new animations to your existing CSS */
+@keyframes branch-grow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.team-tree-branch {
+  transform-origin: top;
+  animation: branch-grow 1s ease-out forwards;
+}
+
+.team-member-card {
+  transition: all 0.3s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(139, 92, 246, 0.2);
+}
