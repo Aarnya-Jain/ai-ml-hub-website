@@ -33,8 +33,8 @@ export default function App() {
         <UpcomingEvent />
         <Activities />
         <EventsSection />
-        <AboutSection />
         <Meetings />
+        <AboutSection />
         <ContactUs />
         <Contact />
       </main>
