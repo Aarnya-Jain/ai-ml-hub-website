@@ -13,9 +13,6 @@ export default function Contact() {
   return (
     <section id="contact" className="relative py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center text-white mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-          Get in Touch
-        </h2>
         <div className="max-w-3xl mx-auto">
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg border border-purple-900/20 p-8 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/50 transform hover:scale-105 transition-all duration-300">
             <div className="flex items-center justify-center mb-8">
