@@ -3,8 +3,8 @@ import { Sparkles } from 'lucide-react';
 import { AimlLogo } from './ui/AimlLogo';
 
 export default function Hero() {
-const scrollToContact = () => {
-    const contactSection = document.getElementById('contact-us');
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contactus');
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -38,7 +38,9 @@ const scrollToContact = () => {
         </p>
         <div className="relative inline-block group">
           <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse-slow"></div>
-          <button className="relative px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
+          <button 
+          onClick={scrollToContact}
+          className="relative px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
             <span className="flex items-center">
               Join Us Today
               <Sparkles className="ml-2 h-5 w-5 animate-pulse" />
