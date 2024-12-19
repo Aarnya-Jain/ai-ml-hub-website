@@ -33,12 +33,15 @@ export default function ContactUs() {
   };
 
   return (
-    <section className="relative pt-24 pb-20 z-0">
+    <section id="contactus" className="relative pt-24 pb-20 z-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-3xl font-bold text-center text-white mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
+          Get in Touch
+        </h2>
+      
         <Card className="overflow-hidden transform hover:scale-[1.02] transition-transform duration-300 hover:shadow-purple-500/50">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3 bg-gradient-to-br from-purple-600 to-pink-600 p-8 text-white">
-              <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
               <p className="mb-8 text-purple-100">
                 Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
               </p>
